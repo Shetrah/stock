@@ -1,0 +1,10 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "node railway.js"
+
+[[services]]
+name = "web"
+[[services.ports]]
+port = 3000
